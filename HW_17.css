@@ -1,0 +1,57 @@
+.nav{
+    display: flex;
+    background-color:black;
+    padding: 20px;
+    
+}
+.right a{
+align-items: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+.left button{
+    align-items: center;
+
+background-color: black;
+width: 80px;
+height: 40px;
+color: violet;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    }
+    
+    .column{
+        height: 600px;
+        width: auto;
+        background-image: url(../UX_UI_HW_17/back_image.jpg);
+        background-repeat: no-repeat;
+    }
+    button{
+        background-color: rgb(255, 210, 221);
+    }
+    .back_image{
+        width: 900px;
+    }
+    .column H1{
+        text-align: center;
+       
+    }
+    .column p{
+        text-align: center;
+        width: 500px;
+
+    }
+    
+    .footer{
+        display: flex;
+        background-color: black;
+        padding: 60px;
+position: bottom;
+    }
+    .footer a{
+        color: white;
+    }
