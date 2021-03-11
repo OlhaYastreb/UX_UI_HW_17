@@ -1,55 +1,42 @@
-.nav{
-    
 
-width: 1440px;
-height: 77px;
-left: calc(50% - 1440px/2);
-top: 0px;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-position: fixed;
-background: #000000; 
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 77px;
+    background: #000000; 
+    
+   
 }
 .nav a{
-  
-    font-family: Poppins;
+
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 27px;
-    color: #FFFFFF;  
+    color: white;  
+    text-decoration: none ;
+    padding: 10px;
 }
-.nav {
 
-}
 button{
-position: relative; 
-font-family: Great Vibes;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 36px;
-/* or 100% */
-background-color: black;
-display: flex;
-align-items: center;
-text-align: center;
-height: 45;
-width: 144;
-color: #FFD2DD;
+     font-size: 36px;
+     background-color: black;
+     text-align: center;
+     color: #FFD2DD;
+     font-family: 'Great Vibes', cursive;
+    
+   
     }
     
     .column{
         height: 600px;
         width: auto;
-       
-
     }
+
     .column button{
         background-color: rgb(255, 210, 221);
-      position: flex;
+        position: flex;
         width: 175px;
         height: 50px;
         left: 427px;
@@ -57,116 +44,93 @@ color: #FFD2DD;
         padding: 10;
         border-radius: 10;
         font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 17px;
-line-height: 25px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 25px;
 /* identical to box height */
-text-align: center;
-letter-spacing: -0.231818px;
-
-color: #000000;
-        
+         text-align: center;
+         letter-spacing: -0.231818px;
+        color: #000000;    
+    }
+    .colomn button:hover {
+        background-color: #FD5780;
     }
      .back_image{
         position: absolute;
         width: 1440px;
         height: 544px;
         left: 0px;
-        top: 77px;
-        
+        top: 77px; 
     }
     .column H1{
         position: absolute;
-width: 335px;
-height: 106px;
-left: 347px;
-top: 146px;
-
-font-family: Sumana;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 55px;
-/* or 115% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
-
-       
+        width: 335px;
+        height: 106px;
+        left: 347px;
+        top: 146px;
+        font-family: 'Sumana', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 55px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;  
     }
     .column p{
-      
-
         position: absolute;
         width: 640px;
         height: 187px;
         left: 195px;
         top: 266px;
-        
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
         font-size: 24px;
         line-height: 36px;
         /* or 150% */
-        
         display: flex;
         align-items: center;
         text-align: center;
-        
         color: #000000;
     }
     
     .footer{
-        position: absolute;
-width: 1440px;
-height: 354px;
-left: -1px;
-top: 1356px;
-background-color: black;
-    }
-    .footer a {
+       position: absolute;
+        width: 1440px;
+        height: 354px;
+        left: -1px;
+        top: 1356px;
+        background-color: black;
        
-height: 48px;
-left: 34.93%;
-right: 35%;
-top: calc(50% - 48px/2 - 81px);
-position: relative;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 48px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: -0.436364px;
-
-color: #FFFFFF;
-    }
-    .footer h1 {
-       
-        height: 26px;
-        left: 37.15%;
-        right: 37.15%;
-        top: calc(50% - 26px/2 - 134px);
         
+    }
+
+    .footer h1 {
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
         font-size: 17px;
-        line-height: 25px;
-        /* identical to box height */
-
         text-align: center;
         letter-spacing: 1px;
         color: #FFFFFF;
         mix-blend-mode: normal;
         opacity: 0.5; 
     }
-
+    .footer a {   
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+    }
     
+ 
