@@ -56,7 +56,7 @@ button{
     .colomn button:hover {
         background-color: #FD5780;
     }
-     .back_image{
+     .back_image {
         position: absolute;
         width: 1440px;
         height: 544px;
