@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: #F2F2F2F2;
-    height: 1797px;
+    background-color: #ffffff;
+    height: 2300px;
 }
 
 .navbar {
@@ -100,7 +100,7 @@ body {
     height: 76px;
     left: 585px;
     top: 700px;
-    font-family: Sumana;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
@@ -116,7 +116,7 @@ body {
     position: absolute;
     width: 592px;
     height: 461px;
-    left: 20px;
+    left: 25px;
     top: 949px;
 }
 
@@ -126,7 +126,7 @@ body {
     height: 55px;
     left: 947px;
     top: 990px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -141,7 +141,7 @@ body {
     height: 182px;
     left: 730px;
     top: 1045px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -170,7 +170,7 @@ body {
     height: 37px;
     left: 257px;
     top: 1610px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -185,7 +185,7 @@ body {
     height: 109px;
     left: 98px;
     top: 1700px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -246,11 +246,17 @@ body {
 .footer .icons li {
     display: inline;
     justify-content: space-between;
-    padding: 15px;
+    padding: 25px;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .footer span {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -269,4 +275,378 @@ body {
 
 .footer .bottom-message span {
     margin: 0 auto;
+}
+
+.about h1 {
+    position: absolute;
+    width: 600px;
+    height: 31px;
+    left: 731px;
+    top: 245px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.about ul {
+    position: absolute;
+    width: 568px;
+    height: 109px;
+    left: 731px;
+    top: 306px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.about li {
+    margin: 25px 0;
+}
+
+.about img {
+    position: absolute;
+    width: 523px;
+    height: 657px;
+    left: 146px;
+    top: 186px;
+}
+
+.maditation img {
+    position: relative;
+    width: 24.05px;
+    height: 25.05px;
+    left: 1109px;
+    top: 659px;
+}
+
+
+/*My skills*/
+
+.skills h1 {
+    position: absolute;
+    width: 120px;
+    height: 41px;
+    left: 134px;
+    top: 953px;
+    font-family: 'Sumana', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+
+/*Education*/
+
+.skills h2 {
+    position: absolute;
+    width: 144px;
+    height: 41px;
+    left: 134px;
+    top: 1816px;
+    font-family: 'Sumana', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+
+/*Resume*/
+
+.skills h3 {
+    position: absolute;
+    width: 95px;
+    height: 37px;
+    left: 622px;
+    top: 1816px;
+    font-family: 'Sumana', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+
+/*My work*/
+
+.skills h4 {
+    position: absolute;
+    width: 120px;
+    height: 41px;
+    left: 134px;
+    top: 2268px;
+    font-family: 'Sumana', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.skills h5 {
+    /* email */
+    position: absolute;
+    height: 54px;
+    left: 138px;
+    right: 788;
+    top: 2901px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.436364px;
+    color: #000000;
+}
+
+.skills h6 {
+    /* lets investigate */
+    position: absolute;
+    width: 620px;
+    height: 36px;
+    left: 138px;
+    top: 2973px;
+    font-family: 'Sumana', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.skills ul {
+    /* GWU */
+    position: absolute;
+    width: 288px;
+    height: 84px;
+    left: 134px;
+    top: 1873px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.231818px;
+    color: #000000;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.info .icons li {
+    /*social media icons*/
+    display: inline;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+#regular {
+    font-weight: normal;
+}
+
+.info ul {
+    /*social media icons*/
+    position: absolute;
+    width: 188px;
+    height: 47px;
+    left: 120px;
+    top: 3100px;
+    width: 600px;
+    padding-inline-start: 0px;
+}
+
+.Myskills ul {
+    align-items: center;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+.Myskills .icons2 li {
+    display: inline;
+    justify-content: space-between;
+    position: relative;
+    padding: 25px;
+    width: 167px;
+    height: 132px;
+    left: 199px;
+    top: 976px;
+    padding: 100px;
+}
+
+.Myskills h1 {
+    position: absolute;
+    width: 133px;
+    height: 26px;
+    left: 320px;
+    top: 1260px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.Myskills h2 {
+    position: absolute;
+    width: 212px;
+    height: 26px;
+    left: 660px;
+    top: 1260px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.Myskills h3 {
+    position: absolute;
+    width: 167px;
+    height: 26px;
+    left: 1050px;
+    top: 1260px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.knoledge {
+    display: inline-block;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    position: relative;
+    width: 300px;
+    left: 143px;
+    top: 1025px;
+    padding: 60px;
+    padding-top: 10px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.Mywork ul {
+    align-items: center;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+.Mywork .lotos li {
+    justify-content: space-between;
+    display: inline;
+    position: relative;
+    width: 962px;
+    height: 128px;
+    left: 288px;
+    top: 1800px;
+    padding: 170px;
+    padding-left: 0px;
+}
+
+.Mywork h1 {
+    position: relative;
+    left: 353px;
+    top: 1805px;
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.Mywork h2 {
+    position: relative;
+    left: 650px;
+    top: 1765px;
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.Mywork h3 {
+    position: relative;
+    left: 1050px;
+    top: 1720px;
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.description {
+    display: inline-block;
+    position: relative;
+    width: 359px;
+    height: 144px;
+    left: 143px;
+    top: 1700px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.231818px;
+    color: #000000;
+    padding: 40px;
 }
