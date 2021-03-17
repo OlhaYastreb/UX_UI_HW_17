@@ -1,7 +1,8 @@
 body {
-    margin: 0;
+    margin: auto;
     background-color: #ffffff;
-    height: 2300px;
+    height: auto;
+    width: auto;
 }
 
 .navbar {
@@ -96,7 +97,7 @@ body {
 
 .work h1 {
     position: absolute;
-    width: 269px;
+    width: 369px;
     height: 76px;
     left: 585px;
     top: 700px;
@@ -150,6 +151,18 @@ body {
     display: flex;
     align-items: center;
     color: #000000;
+}
+
+.work2 .arrow {
+    position: absolute;
+    width: 102px;
+    height: 0px;
+    left: 535px;
+    top: 1863.61px;
+    border: 2px solid #205A8C;
+    box-sizing: border-box;
+    transform: matrix(1, -0.01, 0.02, 1, 0, 0);
+    background-size: auto 100%;
 }
 
 .work2 {
@@ -398,7 +411,7 @@ body {
     width: 120px;
     height: 41px;
     left: 134px;
-    top: 2268px;
+    top: 268px;
     font-family: 'Sumana', serif;
     font-style: normal;
     font-weight: bold;
@@ -555,7 +568,7 @@ body {
 }
 
 .knoledge {
-    display: inline-block;
+    display: table-cell;
     background-color: white;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
