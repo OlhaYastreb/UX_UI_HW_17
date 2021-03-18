@@ -411,7 +411,7 @@ body {
     width: 120px;
     height: 41px;
     left: 134px;
-    top: 268px;
+    top: 2208px;
     font-family: 'Sumana', serif;
     font-style: normal;
     font-weight: bold;
@@ -498,6 +498,15 @@ body {
     padding-inline-start: 0px;
 }
 
+
+/*#conteiner {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "User Research";
+}*/
+
 .Myskills ul {
     align-items: center;
     padding-inline-start: 0px;
@@ -509,18 +518,16 @@ body {
     justify-content: space-between;
     position: relative;
     padding: 25px;
-    width: 167px;
-    height: 132px;
-    left: 199px;
+    left: 129px;
     top: 976px;
-    padding: 100px;
+    padding: 120px;
 }
 
 .Myskills h1 {
     position: absolute;
     width: 133px;
     height: 26px;
-    left: 320px;
+    left: 290px;
     top: 1260px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -597,8 +604,6 @@ body {
     justify-content: space-between;
     display: inline;
     position: relative;
-    width: 962px;
-    height: 128px;
     left: 288px;
     top: 1800px;
     padding: 170px;
@@ -648,7 +653,7 @@ body {
 }
 
 .description {
-    display: inline-block;
+    display: table-cell;
     position: relative;
     width: 359px;
     height: 144px;
@@ -663,3 +668,5 @@ body {
     color: #000000;
     padding: 40px;
 }
+
+@medi only screen and (max-width:600) {}
