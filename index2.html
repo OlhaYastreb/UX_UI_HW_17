@@ -23,7 +23,16 @@
             <a href="index.html" target="_self">OY</a>
         </div>
         <div class="nav">
-            <a href="#" target="_self">Portfolio</a>
+            <a href="#" id="toggle">Portfolio <img src="images/down-arrow.png"></a>
+            <ul id="dropDown">
+                <li><a href="#">Mobile app Remy</a></li>
+                <li>
+                    <a href="#"></a>Responsive re-design</a>
+                </li>
+                <li>
+                    <a href="#"></a>Item 3</a>
+                </li>
+            </ul>
             <a href="index2.html" target="_self">About</a>
             <a href="#" target="_self">Resume</a>
         </div>
@@ -97,22 +106,21 @@
         </div>
         <div class="wrapper">
             <div class="work-section">
-                <img src="../UX_UI_HW_17/images/lotos.png">
+                <div class="lotos"></div>
                 <h3>Remy</h3>
                 <div class="knoledge">
                     A mobile app that is built to fill the gaps in the market when it comes to gift suggestions, as well as more customizable reminders for your special occasions.
                 </div>
             </div>
             <div class="work-section">
-                <img src="../UX_UI_HW_17/images/lotos.png">
+                <div class="lotos1"></div>
                 <h3>Arlington Thrive</h3>
                 <div class="knoledge">
                     Redesigning a non-profit organization’s website to better fit it’s users needs by both improving it functionally and aesthetically.
                 </div>
             </div>
-
             <div class="work-section">
-                <img src="../UX_UI_HW_17/images/lotos.png">
+                <div class="lotos2"></div>
                 <h3>Group project 3</h3>
                 <div class="knoledge">
                     This is text
@@ -139,6 +147,11 @@
             </ul>
         </div>
     </section>
+    <div class="preloader">
+        <img src="images/loader.png">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
